@@ -184,7 +184,6 @@
         />
       </svg>
     </header>
-
     <main>
       <div>
         <h1>
@@ -485,8 +484,10 @@
       }
 
       body {
+        max-width: 1200px;
         color: #6c6c6c;
-        margin: 0 10%;
+        margin: 0 auto 0 auto;
+        padding: 0 40px 0 40px;
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         background-color: #f3ede5;
@@ -559,10 +560,9 @@
 
       .menu {
         visibility: hidden;
-        position: absolute;
+        position: fixed;
         opacity: 0;
-        top: 52px;
-        left: auto;
+        top: 75px;
         display: flex;
         flex-direction: column;
         row-gap: 18px;
@@ -629,7 +629,7 @@
       }
 
       main > div > p > svg {
-        margin: 0 6px;
+        margin: 0 5px;
         transform: translate(10px, 8px);
       }
 
@@ -661,17 +661,13 @@
       }
 
       @media screen and (max-width: 1050px) {
-        body {
-          margin: 0 9%;
-        }
-
         header {
           margin: auto;
           padding: 30px 0;
         }
 
         .menu {
-          margin: auto;
+          margin: 0 20px;
           width: 450px;
           right: 0;
           left: auto;
@@ -742,10 +738,6 @@
       }
 
       @media screen and (max-width: 800px) {
-        body {
-          margin: 0 7%;
-        }
-
         #screenshot {
           display: none;
         }
@@ -761,22 +753,16 @@
         }
 
         #logos > svg {
-          margin: 0;
           object-fit: contain;
-          max-width: 100%;
+          max-width: 90%;
         }
       }
 
       @media screen and (max-width: 550px) {
-        body {
-          margin: 0 5%;
-        }
-
         .menu {
-          margin: auto;
-          width: 100%;
+          left: 0;
+          width: 90%;
           height: auto;
-          max-width: 450px;
         }
       }
     </style>
@@ -795,7 +781,8 @@
         let left = productsCoords.left - window.scrollX;
         menu.style.visibility = "visible";
         menu.style.opacity = 1;
-        menu.style.left = `${left - width.slice(0, width.length - 2) * 0.14}px`;
+        menu.style.left = `${left - 20}px`;
+
         arrow.style.left = `${menu.style.left}px`;
       }
 

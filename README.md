@@ -1,33 +1,9 @@
+# Ondeck Landing Page
 
-# Welcome to Codewell! 👋
+This was a challenge from [Codewell](https://codewell.cc) a website with project ideas for practicing.
 
-Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
+- [GitHub Repo](https://jayaey.github.io/ondeck-landing-page/)
+- [Live Site](https://https://github.com/jayAEY/ondeck-landing-page)
 
-Free or paid, all templates are high quality and will make great portfolio pieces.
-
-### I've completed the challenge, now what?
-
-We recommend using one of these two websites to deploy your projects
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
-
-They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
-
-
-### Submit your solution to Codewell
-
-Visit the relevant challenge on [Codewell](https://codewell.cc) and click on 'Submit Solution' right under the challenge.
-Enter all the title, Github repo URL, Live URL (Netlify or GH Pages), and tell the community what challenges you've faced.
-
-### Join our community on Slack
-
-If you want more real-time communication, you can visit our community on [Slack](https://join.slack.com/t/codewell-hq/shared_invite/zt-ni8c9g8h-gNYWrmqQ3Uh37dcLg9~LMQ). 
-
-### Wes Bos's Javascript30
-
-This challenge is best coupled with Day 22 of Wes Bos's [Javascript30](https://javascript30.com) course. 
-
-### Fonts Used
-
-https://fonts.google.com/specimen/Inter
+![desktop screenshot](./Assets/hover%20menu%20desktop.png)
+![mobile screenshot](./Assets/hover%20menu%20mobile.png)
